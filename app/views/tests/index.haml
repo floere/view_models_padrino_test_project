@@ -1,0 +1,3 @@
+- @models.each do |model|
+ - view_model = view_model_for model, self
+ = view_model.render_as :item
